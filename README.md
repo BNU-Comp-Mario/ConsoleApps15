@@ -1,10 +1,10 @@
 # C# Console Applications App01 to App05
 | Author | Details |
-| ---- | ---- |
-**Name**: | Student Name  |
-**Student ID**: | 12345678 |
-**Course:** | Computing |
-**Module**: | CO453     |
+| Jose Gomes | 22019481 |
+**Name**: | Jose Gomes  |
+**Student ID**: | 22019481 |
+**Course:** | Software Engineering |
+**Module**: | CO453 |
 **Started**: | January 2021 |    
 
 1. App01: Distance Converter
