@@ -1,0 +1,38 @@
+﻿@model ConsoleAppProject.App01.DistanceConverter
+@{
+    ViewData["Title"] = "JM Distance Converter";
+}
+
+<header class="jumbotron">
+    <h1>DistanceConverter</h1>
+    <h2>by Jose Gomes</h2>
+    <p>
+        This app will ask for a distance unit and convert it to another one (Miles,Metres,Feet).
+    </p>
+</header>
+<section>
+    <form method="post">
+        <h2>Select and fill all fields!</h2>
+ 
+        <p>
+            <label for="unitFrom">Convert <input type="number" value="" /></label>
+            <select id="unitFrom" name="unitFrom">
+                <option value="miles">Miles</option>
+                <option value="metres">Metres</option>
+                <option value="feet">Feet</option>
+            </select>
+            <label for="unitTo">To</label>
+            <select id="unitTo" name="unitTo">
+                <option value="miles">Miles</option>
+                <option value="metres">Metres</option>
+                <option value="feet">Feet</option>
+            </select>
+        </p>
+        <p>
+            <button class="btn btn-success" type="submit">Convert</button>
+        </p>
+
+    </form>
+</section>
+
+
