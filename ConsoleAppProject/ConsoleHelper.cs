@@ -6,6 +6,7 @@ namespace ConsoleAppProject
 {
     public class ConsoleHelper
     {
+
         //Set Heading
         public static void DisplayHeading()
         {

@@ -27,6 +27,8 @@ namespace ConsoleAppProject
                 int choice = Convert.ToInt32(Console.ReadLine());
 
                 App01.DistanceConverter converter = new App01.DistanceConverter();
+                App02.BmiCalculator calculator = new App02.BmiCalculator();
+                App03.StudentGrades marking = new App03.StudentGrades();
 
                 switch (choice)
                 {
@@ -35,19 +37,19 @@ namespace ConsoleAppProject
                         converter.ConvertDistances();
                         break;
                     case 2:
-                        Console.WriteLine("----------------App02 BMI Calculator---------------\n");
-                        //app02
+                        Console.WriteLine("\n----------------App02 BMI Calculator---------------\n");
+                        calculator.BmiCalculation();
                         break;
                     case 3:
-                        Console.WriteLine("----------------App03 Student Marks----------------\n");
-                        //app03
+                        Console.WriteLine("\n----------------App03 Student Marks----------------\n");
+                        marking.UserChoice();
                         break;
                     case 4:
-                        Console.WriteLine("----------------App04 Social Network---------------\n");
+                        Console.WriteLine("\n----------------App04 Social Network---------------\n");
                         //app04
                         break;
                     case 5:
-                         Console.WriteLine("---------------App05 Game Images------------------\n");
+                         Console.WriteLine("\n---------------App05 Game Images------------------\n");
                          //app04
                         break;
                 default:
